@@ -1,0 +1,212 @@
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \******************************************************************/
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: lightslategray;
+  text-decoration-line: none;
+}
+
+.active {
+  font-weight: bold;
+  color: darkolivegreen;
+}
+
+label {
+  margin-right: 10px;
+}
+
+header {
+  width: 100%;
+  background-color: seashell;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .welcome {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+header .welcome #name {
+  padding: 5px 15px 5px 5px;
+  font-size: 25px;
+  align-self: center;
+  font-weight: 600;
+  color: rosybrown;
+}
+
+header .welcome img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+header nav {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-left: 15px;
+  align-self: center;
+}
+
+header nav ul li a:hover {
+  color: #8D7474;
+}
+
+.register_form {
+  max-width: 60%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 5px auto;
+}
+
+.register_form .radioButtons___container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.register_form .radioButtons___container .radioButtons___container_block {
+  display: table;
+  width: 30%;
+}
+
+.register_form .radioButtons___container .radioButtons___container_block label {
+  display: table-cell;
+}
+
+.register_form .radioButtons___container .radioButtons___container_block input {
+  display: table-cell;
+}
+
+.register_form .input_block {
+  align-self: center;
+  width: 80%;
+  margin-top: 10px;
+  padding: 10px 0 10px;
+  display: table;
+}
+
+.register_form .input_block input {
+  width: 80%;
+  display: table-cell;
+}
+
+.register_form .input_block label {
+  width: 20%;
+  display: table-cell;
+}
+
+.register_form button {
+  max-width: 100px;
+  display: block;
+  margin: 10px auto;
+}
+
+.avatar_section p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.avatar_section img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 5px auto;
+}
+
+.accountPage__container {
+  padding: 15px;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  background-color: AntiqueWhite;
+  box-shadow: 6px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.not_found__container {
+  width: 100%;
+  height: 100vh;
+}
+
+.not_found__container .not_found__code, .not_found__container .not_found__text {
+  background-color: goldenrod;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  font-size: 300px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: background-gradient 5s linear infinite;
+  transition: background-color 1s linear;
+}
+
+.not_found__container .not_found__text {
+  font-size: 50px;
+}
+
+.home_main {
+  background-image: url(fe139981c8609b665b52.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 200vh;
+}
+
+@keyframes background-gradient {
+  0% {
+    background-color: goldenrod;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  10% {
+    background-color: lightcoral;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  30% {
+    background-color: coral;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  60% {
+    background-color: DarkOrange;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  90% {
+    background-color: orange;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background-color: goldenrod;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
